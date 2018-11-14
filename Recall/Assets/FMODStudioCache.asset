@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 114249888799778226}
-  - {fileID: 114031784915667978}
+  - {fileID: 114948999957884110}
+  - {fileID: 114733226777475226}
   EditorEvents:
-  - {fileID: 114399428363154040}
-  - {fileID: 114379594899923194}
-  - {fileID: 114710186735373210}
-  - {fileID: 114988874129010322}
-  - {fileID: 114923466771222786}
-  - {fileID: 114683762982535248}
-  - {fileID: 114471364047978782}
-  - {fileID: 114296575414943546}
-  - {fileID: 114963555605600726}
-  - {fileID: 114890528087902134}
-  MasterBankRef: {fileID: 114031784915667978}
-  StringsBankRef: {fileID: 114249888799778226}
-  stringsBankWriteTime: 636776978860000000
+  - {fileID: 114182618350673744}
+  - {fileID: 114446279564222702}
+  - {fileID: 114178838174071314}
+  - {fileID: 114161006600124566}
+  - {fileID: 114460408574184240}
+  - {fileID: 114304622594864372}
+  - {fileID: 114763051081719810}
+  - {fileID: 114600610303413956}
+  - {fileID: 114836007775398028}
+  - {fileID: 114013917552110972}
+  MasterBankRef: {fileID: 114733226777475226}
+  StringsBankRef: {fileID: 114948999957884110}
+  stringsBankWriteTime: 636778090491057262
   cacheVersion: 2
 --- !u!114 &114001807208680620
 MonoBehaviour:
@@ -50,6 +50,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &114013917552110972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SOUND TRACK/Porta 1/Grama/Grama
+  guid: e19871bc15963e4ebef853976a9290c8
+  Banks:
+  - {fileID: 114733226777475226}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 210402
 --- !u!114 &114031784915667978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,6 +112,72 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &114161006600124566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Doug/Foosteps/Madeira/FootstepWood
+  guid: 88ca346eb645674ea676113bac1d1121
+  Banks:
+  - {fileID: 114733226777475226}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 260
+--- !u!114 &114178838174071314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SOUND TRACK/Porta 1/Casa/Casa
+  guid: 60c8000850941b479f9672142479e915
+  Banks:
+  - {fileID: 114733226777475226}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 126000
+--- !u!114 &114182618350673744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Doug/Gun shots/Handgun
+  guid: 1ddff5c820f7a645b8cd218c78a58766
+  Banks:
+  - {fileID: 114733226777475226}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
 --- !u!114 &114212982308067042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,6 +240,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 210402
+--- !u!114 &114304622594864372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Doug/Foosteps/Grama/FootstepGrass
+  guid: ac3d232343407e42a9ccea966581195d
+  Banks:
+  - {fileID: 114733226777475226}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 340
 --- !u!114 &114323147417140042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,6 +392,50 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &114446279564222702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SOUND TRACK/Limbo/Limbo
+  guid: 369172bc06661c4b95308ee628446ae2
+  Banks:
+  - {fileID: 114733226777475226}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 119768
+--- !u!114 &114460408574184240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: "event:/SOUND TRACK/Porta 2/Persegui\xE7\xE3o/Chase"
+  guid: aafda18b01bff44d9d6429b59370eb94
+  Banks:
+  - {fileID: 114733226777475226}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 154078
 --- !u!114 &114471364047978782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,6 +520,28 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1600
+--- !u!114 &114600610303413956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SOUND TRACK/Menu Inicial/Menu Inicial
+  guid: ccf1f257a9745a49b3603f4c183be946
+  Banks:
+  - {fileID: 114733226777475226}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 182000
 --- !u!114 &114653200909287654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -431,6 +607,69 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 260
+--- !u!114 &114733226777475226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: "C:\\Users\\arthu\\Documents\\FACULDADE\\3\xBA SEMESTRE\\INTER 3\xBA SEMESTRE\\Inter_Recall\\Recall\\FMOD\\Recall\\Build\\Desktop\\Master
+    Bank.bank"
+  lastModified: 636778090490797956
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 13129792
+  Exists: 1
+--- !u!114 &114763051081719810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Doug/Foosteps/Concreto/FootstepConcret
+  guid: af4a8c86f2f1cc448534a7f3ad36624d
+  Banks:
+  - {fileID: 114733226777475226}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 260
+--- !u!114 &114836007775398028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SOUND TRACK/Porta 2/Bar/Bar
+  guid: d1bdacd11440cb4cbd7b5d73a8d6f00a
+  Banks:
+  - {fileID: 114733226777475226}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 37400
 --- !u!114 &114885010840345638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -496,6 +735,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 126000
+--- !u!114 &114948999957884110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: FMOD\Recall\Build\Desktop\Master Bank.strings.bank
+  lastModified: 636778090491057262
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1274
+  Exists: 1
 --- !u!114 &114963555605600726
 MonoBehaviour:
   m_ObjectHideFlags: 0
