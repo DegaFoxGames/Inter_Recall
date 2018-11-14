@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{b5bbd6ab-a876-4a43-a508-bb4dea74ab9a}">
+        <property name="assetPath">
+            <value>INTER 3/SOUND EFFECT/BOMBA/Big_Explosion_Cut_Off.mp3</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.2465306122448978</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{9ed1403a-d964-408e-925f-ffe6008bd334}</destination>
+        </relationship>
+    </object>
+</objects>

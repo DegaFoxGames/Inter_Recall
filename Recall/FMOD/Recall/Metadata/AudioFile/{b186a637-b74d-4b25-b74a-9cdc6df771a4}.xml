@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{b186a637-b74d-4b25-b74a-9cdc6df771a4}">
+        <property name="assetPath">
+            <value>INTER 3/SOUND EFFECT/telefone/Phone_Ringing_Untraditional.mp3</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>12.120816326530612</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{9ed1403a-d964-408e-925f-ffe6008bd334}</destination>
+        </relationship>
+    </object>
+</objects>

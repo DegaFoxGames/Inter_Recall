@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EncodableAsset" id="{dda2f491-c774-459a-b173-1f4418e69730}">
+        <property name="assetPath">
+            <value>INTER 3/SOUND EFFECT/Footsteps/pulo concreto/</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{9ed1403a-d964-408e-925f-ffe6008bd334}</destination>
+        </relationship>
+    </object>
+</objects>

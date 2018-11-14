@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{b1737c04-083f-4ffb-a091-ea0a6c9f5dc6}">
+        <property name="assetPath">
+            <value>INTER 3/MUSICAS/Musica calma/Patent_Doll - rádio.mp3</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>241.68489795918367</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{9ed1403a-d964-408e-925f-ffe6008bd334}</destination>
+        </relationship>
+    </object>
+</objects>

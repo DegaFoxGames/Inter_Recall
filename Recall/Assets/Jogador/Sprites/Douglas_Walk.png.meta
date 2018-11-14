@@ -1,0 +1,950 @@
+fileFormatVersion: 2
+guid: 60de95c385c11b6468d986f62baf7579
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Douglas_Walk_0
+    21300002: Douglas_Walk_1
+    21300004: Douglas_Walk_2
+    21300006: Douglas_Walk_3
+    21300008: Douglas_Walk_4
+    21300010: Douglas_Walk_5
+    21300012: Douglas_Walk_6
+    21300014: Douglas_Walk_7
+    21300016: Douglas_Walk_8
+    21300018: Douglas_Walk_9
+    21300020: Douglas_Walk_10
+    21300022: Douglas_Walk_11
+    21300024: Douglas_Walk_12
+    21300026: Douglas_Walk_13
+    21300028: Douglas_Walk_14
+    21300030: Douglas_Walk_15
+    21300032: Douglas_Walk_16
+    21300034: Douglas_Walk_17
+    21300036: Douglas_Walk_18
+    21300038: Douglas_Walk_19
+    21300040: Douglas_Walk_20
+    21300042: Douglas_Walk_21
+    21300044: Douglas_Walk_22
+    21300046: Douglas_Walk_23
+    21300048: Douglas_Walk_24
+    21300050: Douglas_Walk_25
+    21300052: Douglas_Walk_26
+    21300054: Douglas_Walk_27
+    21300056: Douglas_Walk_28
+    21300058: Douglas_Walk_29
+    21300060: Douglas_Walk_30
+    21300062: Douglas_Walk_31
+    21300064: Douglas_Walk_32
+    21300066: Douglas_Walk_33
+    21300068: Douglas_Walk_34
+    21300070: Douglas_Walk_35
+    21300072: Douglas_Walk_36
+    21300074: Douglas_Walk_37
+    21300076: Douglas_Walk_38
+    21300078: Douglas_Walk_39
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Douglas_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 6985
+        width: 802
+        height: 1550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397dca3db1e4e8442ab9418dd025d056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 6985
+        width: 801
+        height: 1550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a1d2fae2e448842b2e0c04df014bfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 6999
+        width: 768
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c8ebe23018e8f4eb060c273e7912d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 6995
+        width: 744
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa222a48f79e6b64ca573cf124a9e01c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 4290
+        y: 6995
+        width: 718
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5454e499d3abd14cbd4833a3d9b355e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 5330
+        y: 6991
+        width: 710
+        height: 1540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d92656bf14a7b468d2b4522fe1489b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 6391
+        y: 6995
+        width: 638
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f80dad8cb4d5c34a83789d63cc0ad4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 7455
+        y: 6995
+        width: 564
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94822061d0a1eb4468ec6e967f59e695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 5283
+        width: 501
+        height: 1541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a3a33416bd962438b5e849eb4c34de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 5283
+        width: 435
+        height: 1541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8570cfa1c85b5469cf7728ba751de7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 5283
+        width: 434
+        height: 1541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dac4d37d23cc740ac96d2c2246b5a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 5290
+        width: 432
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55233bacfdb2b444871e98659b3f90b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 5296
+        width: 451
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b47ccbb0bbc3049b43d0a697bcbf0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 5434
+        y: 5314
+        width: 460
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0227356a778c26746aa00e577a63b49e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 6470
+        y: 5321
+        width: 465
+        height: 1515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b55f73ddd6f0b9418c4c6d0d5872fb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 7489
+        y: 5325
+        width: 538
+        height: 1507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0853e71abaa38c44ad439888a3dee15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 3619
+        width: 568
+        height: 1501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b1ac5a43d2b8240b1437a803ab6b0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 3619
+        width: 601
+        height: 1501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3104349796078e7429ecbc1e8f9c7f23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 3605
+        width: 631
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c03ef5ef6a65c4687129d879616523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 3595
+        width: 665
+        height: 1521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6aeb3864c833045968dbd4b9b1b637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 4349
+        y: 3580
+        width: 701
+        height: 1532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92d4a8adb8d2bc4f9a2abebf35ffa65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 5359
+        y: 3580
+        width: 718
+        height: 1532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546319c2a163cd84da23b9326c8f0507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 6374
+        y: 3576
+        width: 731
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16c91ca44c9be447b16837e17ea0b66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 7393
+        y: 3576
+        width: 739
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e803b914d35626840a7cdefac7090562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_24
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1860
+        width: 739
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a0a1834e3763d44a9c95b9cb8bac32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_25
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1860
+        width: 751
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805632180d30b6d45b8ab8867faacc37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_26
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1860
+        width: 647
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af3118ca35a85b4fa2fc4d0db10b10b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_27
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 1864
+        width: 545
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5f8baf277715b478bcff1d89b51b7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_28
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 1864
+        width: 488
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957279b1e23276e4a85170a35dc87435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_29
+      rect:
+        serializedVersion: 2
+        x: 5434
+        y: 1864
+        width: 472
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517167a50e92ce041b7b075152b047a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_30
+      rect:
+        serializedVersion: 2
+        x: 6470
+        y: 1864
+        width: 522
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdb59724ec5c974aa7278db0188c664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_31
+      rect:
+        serializedVersion: 2
+        x: 7505
+        y: 1856
+        width: 535
+        height: 1549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e36036f21ccee4a9c6c4a611c3330a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_32
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 140
+        width: 551
+        height: 1557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24209173a6148264b90d30b63e3cc785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_33
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 140
+        width: 560
+        height: 1561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fd871577c96504fb5cde6d26717337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_34
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 155
+        width: 606
+        height: 1546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dcca73ed969a34fb3a7260bd95b7d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_35
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 169
+        width: 656
+        height: 1532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda5eaa2920c73845adb919232c4977a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_36
+      rect:
+        serializedVersion: 2
+        x: 4315
+        y: 169
+        width: 660
+        height: 1532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a59e157b3af704cafa4650d6f2e9f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_37
+      rect:
+        serializedVersion: 2
+        x: 5330
+        y: 161
+        width: 681
+        height: 1540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e777140802fe30247a0d24122a6591b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_38
+      rect:
+        serializedVersion: 2
+        x: 6345
+        y: 155
+        width: 730
+        height: 1542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32173d70b0f339a4da986ab7fcb6d935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Douglas_Walk_39
+      rect:
+        serializedVersion: 2
+        x: 7368
+        y: 155
+        width: 776
+        height: 1542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fe8646bb250f549b71abba9f5ac8ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 47be30dd31db86441b0c5c35d901d3dd
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
