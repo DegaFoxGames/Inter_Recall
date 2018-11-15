@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 114761502050620036}
   - component: {fileID: 212795693123158592}
   - component: {fileID: 95431485973161672}
-  - component: {fileID: 114262476125469424}
+  - component: {fileID: 114580720009245908}
   m_Layer: 9
   m_Name: Player 1
   m_TagString: Player
@@ -130,7 +130,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1600559834400286}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.191881, y: -0.1960283, z: 0}
+  m_LocalPosition: {x: -69.67, y: -0.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4687137936348082}
@@ -254,17 +254,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114262476125469424
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1600559834400286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 317d094e5b75d364595eba8f02a8d45f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114450285721111436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -278,6 +267,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationOffset: 0
   rotZ: 23.41885
+--- !u!114 &114580720009245908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1600559834400286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317d094e5b75d364595eba8f02a8d45f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstep: 0
 --- !u!114 &114667906420873794
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -310,9 +311,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50ff0724da1457458dbaf537e0a4d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadeJogador: 5
+  velocidadeJogador: 4
   velocidadeJogadorRun: 10
-  forcaPulo: 15
+  forcaPulo: 12
   player: {fileID: 1600559834400286}
   arm: {fileID: 1566578630774992}
   lado: 0

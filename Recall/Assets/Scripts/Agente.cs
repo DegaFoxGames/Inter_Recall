@@ -30,12 +30,20 @@ public class Agente : MonoBehaviour
     public float ataqueDistancia;
     public GameObject player;
 
+    private bool fire;
+
+    public GameObject PrefabProjetil;
+    public Transform instanciador;
+
+    enum Lados { DIREITA, ESQUERDA }
+    Lados lado;
 
     // Use this for initialization
     void Start()
     {
         // direcao = Direcao.DIREITA;
         anim = GetComponent<Animator>();
+        //lado = Lados.ESQUERDA;
         eLadoDireito = true;
         estaPatrulhando = false;
         atacar = false;
@@ -50,9 +58,8 @@ public class Agente : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         MudarEstado();
-
+        
         playerDistancia = transform.position.x - player.transform.position.x;
 
         if (Mathf.Abs(playerDistancia) < ataqueDistancia)
@@ -96,6 +103,12 @@ public class Agente : MonoBehaviour
 
     void Idle()
     {
+
+        if (playerDistancia < 0 && !eLadoDireito || playerDistancia > 0 && eLadoDireito)
+        {
+            MudarDirecao();
+        }
+
         tempoIdle += Time.deltaTime;
         if (tempoIdle <= duracaoIdle)
         {
@@ -110,6 +123,11 @@ public class Agente : MonoBehaviour
 
     void Patrulhar()
     {
+        if (playerDistancia < 0 && !eLadoDireito || playerDistancia > 0 && eLadoDireito)
+        {
+            MudarDirecao();
+        }
+
         tempoPatrulhar += Time.deltaTime;
         if (tempoPatrulhar <= duracaoPatrulhar)
         {
@@ -162,5 +180,30 @@ public class Agente : MonoBehaviour
     public void ResetarAtacar()
     {
         atacar = false;
+    }
+
+
+    void Fire()
+    {
+
+        if (fire && !anim.GetCurrentAnimatorStateInfo(0).IsTag("estaAtirando"))
+        {
+            anim.SetTrigger("estaAtirando");
+        }
+    }
+
+    private void InstanciarProjetil()
+    {
+        GameObject temp = (Instantiate(PrefabProjetil, instanciador.position, instanciador.rotation));  
+
+        if (eLadoDireito)
+        {
+            temp.GetComponent<Bala>().Inicializar(Vector2.right);
+        }
+
+        else if(!eLadoDireito)
+        {
+            temp.GetComponent<Bala>().Inicializar(Vector2.left);
+        }
     }
 }
