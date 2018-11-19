@@ -5,9 +5,8 @@ using System.Collections;
 
 public class Weapon : MonoBehaviour
 {
-
     public float fireRate = 0;
-    public float Damage = 10;
+    public int Damage = 1;
     public LayerMask whatToHit;
 
     public Transform BulletTrailPrefab;
@@ -18,6 +17,7 @@ public class Weapon : MonoBehaviour
 
     float timeToFire = 0;
     Transform firePoint;
+
 
     // Use this for initialization
     void Awake()
@@ -46,7 +46,7 @@ public class Weapon : MonoBehaviour
                 timeToFire = Time.time + 1 / fireRate;
                 Shoot();
             }
-        }
+        }        
     }
 
     void Shoot()
@@ -61,12 +61,22 @@ public class Weapon : MonoBehaviour
         }
             //Debug.DrawLine(firePointPosition, (mousePosition - firePointPosition) * 100, Color.cyan);
 
-        if (hit.collider != null)
-        {
-            //Debug.DrawLine(firePointPosition, hit.point, Color.red);
-            //Debug.Log("We hit " + hit.collider.name + " and did " + Damage + " damage.");
-            Destroy(hit.collider.gameObject);
-        }
+       
+            if (hit.collider != null)
+            {
+                Agente agente = hit.collider.GetComponent<Agente>();
+                Sentinela sentinela = hit.collider.GetComponent<Sentinela>();
+
+            if (agente != null)
+                {
+                    agente.DanoAgente(Damage);
+            }
+
+            else if (sentinela != null)
+            {
+                sentinela.DanoSentinela(Damage);
+            }
+       }
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Doug/Gun shots/Handgun", GetComponent<Transform>().position); // som do tiro
     }
 
@@ -78,7 +88,6 @@ public class Weapon : MonoBehaviour
         float size = Random.Range(0.6f, 0.9f);
         clone.localScale = new Vector3(size, size, size);
         Destroy(clone.gameObject, 0.02f);
-    }
-    
+    } 
 }
 

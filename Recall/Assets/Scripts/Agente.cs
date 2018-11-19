@@ -25,18 +25,21 @@ public class Agente : MonoBehaviour
 
     public bool estaPatrulhando;
     public bool atacar;
+    bool fire;
 
     public float playerDistancia;
     public float ataqueDistancia;
     public GameObject player;
-
-    private bool fire;
 
     public GameObject PrefabProjetil;
     public Transform instanciador;
 
     enum Lados { DIREITA, ESQUERDA }
     Lados lado;
+
+    public int VidaInimigo;
+
+    SpriteRenderer sprite;
 
     // Use this for initialization
     void Start()
@@ -53,13 +56,18 @@ public class Agente : MonoBehaviour
         duracaoIdle = 2;
         duracaoPatrulhar = 5;
         duracaoAtacar = 2.4f;
+
+        VidaInimigo = 4;
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        print(VidaInimigo);
         MudarEstado();
-        
+
         playerDistancia = transform.position.x - player.transform.position.x;
 
         if (Mathf.Abs(playerDistancia) < ataqueDistancia)
@@ -194,16 +202,35 @@ public class Agente : MonoBehaviour
 
     private void InstanciarProjetil()
     {
-        GameObject temp = (Instantiate(PrefabProjetil, instanciador.position, instanciador.rotation));  
+        GameObject temp = (Instantiate(PrefabProjetil, instanciador.position, instanciador.rotation));
 
         if (eLadoDireito)
         {
             temp.GetComponent<Bala>().Inicializar(Vector2.right);
         }
 
-        else if(!eLadoDireito)
+        else if (!eLadoDireito)
         {
             temp.GetComponent<Bala>().Inicializar(Vector2.left);
         }
+    }
+
+    public void DanoAgente(int DanoBalaJogador)
+    {
+        VidaInimigo -= DanoBalaJogador;
+        StartCoroutine(Dano());
+
+        if (VidaInimigo < 1)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
+    IEnumerator Dano()
+    {
+        sprite.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        sprite.color = Color.white;
     }
 }

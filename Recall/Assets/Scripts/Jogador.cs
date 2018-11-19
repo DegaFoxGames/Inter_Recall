@@ -12,6 +12,9 @@ public class Jogador : MonoBehaviour {
     Animator animator;
     public GameObject player; // gameobject para inserir o player e mudar a escala dele
     public GameObject arm; // gameobject para inserir o braço e mudar a escala dele
+    public int VidaJogador;
+    public Component[] Braco;
+    public bool invulnerabilidade;
 
 
     enum Estados {PARADO, ANDANDO, CORRENDO, PULANDO}
@@ -19,6 +22,9 @@ public class Jogador : MonoBehaviour {
 
     public enum Lado { DIREITA, ESQUERDA }
     public Lado lado;
+
+    SpriteRenderer spriteJogador;
+    //SpriteRenderer spriteBraco;
 
     // Use this for initialization
     void Start () {
@@ -29,6 +35,9 @@ public class Jogador : MonoBehaviour {
         forcaPulo = 15;
         estado = Estados.ANDANDO;
         lado = Lado.DIREITA;
+
+        VidaJogador = 4;
+        spriteJogador = GetComponent<SpriteRenderer>();
     }
     
 	
@@ -162,4 +171,36 @@ public class Jogador : MonoBehaviour {
             }
         }
     }
+
+
+    IEnumerator Dano()
+    {
+        for (float i = 0f; i < 1; i += 0.1f)
+        {
+            //spriteJogador.enabled = false;
+            spriteJogador.color = Color.red;
+            //spriteBraco.color = Color.red;
+            yield return new WaitForSeconds(0.1f);
+            //spriteJogador.enabled = true;
+            spriteJogador.color = Color.white;
+           // spriteBraco.color = Color.white;
+            yield return new WaitForSeconds(0.1f);
+        }
+        invulnerabilidade = false;
+    }
+
+
+    public void DanoJogador()
+    {
+        invulnerabilidade = true;
+        VidaJogador--;
+        StartCoroutine(Dano());
+
+        if (VidaJogador < 1)
+        {
+            Debug.Log("Morreu");
+        }
+    }
 }
+
+

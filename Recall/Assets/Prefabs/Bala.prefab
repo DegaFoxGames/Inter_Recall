@@ -24,9 +24,9 @@ GameObject:
   - component: {fileID: 50734462078728458}
   - component: {fileID: 60139430493172296}
   - component: {fileID: 114341140185995964}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bala
-  m_TagString: Untagged
+  m_TagString: BalaInimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 4696966873620168}
   - component: {fileID: 212393787506459242}
   - component: {fileID: 95117031231744404}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: EfeitoBala
   m_TagString: Untagged
   m_Icon: {fileID: 0}

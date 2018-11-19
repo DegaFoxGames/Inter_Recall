@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: c69ba3f7b5804894093ecdaf3471782c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Doug Run Perfil_0
+    21300002: Doug Run Perfil_1
+    21300004: Doug Run Perfil_2
+    21300006: Doug Run Perfil_3
+    21300008: Doug Run Perfil_4
+    21300010: Doug Run Perfil_5
+    21300012: Doug Run Perfil_6
+    21300014: Doug Run Perfil_7
+    21300016: Doug Run Perfil_8
+    21300018: Doug Run Perfil_9
+    21300020: Doug Run Perfil_10
+    21300022: Doug Run Perfil_11
+    21300024: Doug Run Perfil_12
+    21300026: Doug Run Perfil_13
+    21300028: Doug Run Perfil_14
+    21300030: Doug Run Perfil_15
+    21300032: Doug Run Perfil_16
+    21300034: Doug Run Perfil_17
+    21300036: Doug Run Perfil_18
+    21300038: Doug Run Perfil_19
+    21300040: Doug Run Perfil_20
+    21300042: Doug Run Perfil_21
+    21300044: Doug Run Perfil_22
+    21300046: Doug Run Perfil_23
+    21300048: Doug Run Perfil_24
+    21300050: Doug Run Perfil_25
+    21300052: Doug Run Perfil_26
+    21300054: Doug Run Perfil_27
+    21300056: Doug Run Perfil_28
+    21300058: Doug Run Perfil_29
+    21300060: Doug Run Perfil_30
+    21300062: Doug Run Perfil_31
+    21300064: Doug Run Perfil_32
+    21300066: Doug Run Perfil_33
+    21300068: Doug Run Perfil_34
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Doug Run Perfil_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 8557
+        width: 1181
+        height: 1466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f48b9a20368f047b01f6be589c3561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_1
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 8562
+        width: 1175
+        height: 1460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f83523e141d0ff48bd48c14bf9b5a43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_2
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 8564
+        width: 1150
+        height: 1457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a1c5fcbcdead44c910d8d0d27a0101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_3
+      rect:
+        serializedVersion: 2
+        x: 4515
+        y: 8564
+        width: 1122
+        height: 1444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f866ecabd37fa84cb5ce847452bdbab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_4
+      rect:
+        serializedVersion: 2
+        x: 5978
+        y: 8562
+        width: 1095
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b2b3761b832464ab685c1bb32bee3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_5
+      rect:
+        serializedVersion: 2
+        x: 7477
+        y: 8543
+        width: 1019
+        height: 1479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0843419ed7b8fe4c91f7b54c6d8b199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 6859
+        width: 940
+        height: 1486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3127a8eb55ea1874f9ee6125063d5a11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_7
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 6869
+        width: 889
+        height: 1491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba2de60c4d45094b9c144f00e1a5227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_8
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 6903
+        width: 826
+        height: 1467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a622758a5236eda4c968d23d1e6d18fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_9
+      rect:
+        serializedVersion: 2
+        x: 4756
+        y: 6913
+        width: 881
+        height: 1466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df9224df03a1f2498dfc41370ce556e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_10
+      rect:
+        serializedVersion: 2
+        x: 6168
+        y: 6913
+        width: 945
+        height: 1466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb98ebc7b65709499101f618ecd40ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_11
+      rect:
+        serializedVersion: 2
+        x: 7576
+        y: 6923
+        width: 999
+        height: 1456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f332de613658ec64dbc9e14120f0fb5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 5249
+        width: 1052
+        height: 1447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8819eea4d9d77bb40a95e63cec453f67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_13
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 5264
+        width: 1107
+        height: 1432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3307e8144956f5246b4e0e4d828c2321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_14
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 5284
+        width: 1175
+        height: 1402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c28de1b8427e5f4095d3eff4d0d624c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_15
+      rect:
+        serializedVersion: 2
+        x: 4510
+        y: 5318
+        width: 1230
+        height: 1363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a867bc5975acb024da617cc16ed33ed4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_16
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 5333
+        width: 1250
+        height: 1343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0af958cd3349344aa9e849bd5652c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_17
+      rect:
+        serializedVersion: 2
+        x: 7384
+        y: 5298
+        width: 1284
+        height: 1369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5329752b5d02e524c860d5d34baa728d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3591
+        width: 1250
+        height: 1390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24a9be3d94442f4b92ab0ffd57334c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_19
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 3559
+        width: 1210
+        height: 1422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da41435645b1b304e81cb6b745815e36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_20
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 3523
+        width: 1159
+        height: 1450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd3e7a676f62d34ea0a655bfe2aa15b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_21
+      rect:
+        serializedVersion: 2
+        x: 4586
+        y: 3522
+        width: 1105
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5cf85bfaf40ff4389cdce99b0e216c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_22
+      rect:
+        serializedVersion: 2
+        x: 6114
+        y: 3524
+        width: 1023
+        height: 1448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1495cc0e3067d45438cb60fc38a85c4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_23
+      rect:
+        serializedVersion: 2
+        x: 7674
+        y: 3513
+        width: 871
+        height: 1470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a698f20bb6b52547ba82c9381a2d5f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_24
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1831
+        width: 714
+        height: 1484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d3cbbbf377c1a48bbb339c9d951bdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_25
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1870
+        width: 679
+        height: 1460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f946719198904f49b47056dfa196ead
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_26
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 1897
+        width: 727
+        height: 1442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a3bf0816b27554eafdb4a9377f02c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_27
+      rect:
+        serializedVersion: 2
+        x: 4692
+        y: 1907
+        width: 768
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c9892f2ffe6b3489fe73f93c04a208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_28
+      rect:
+        serializedVersion: 2
+        x: 6099
+        y: 1907
+        width: 871
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db6c3c279a885c4093eb47285707f3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_29
+      rect:
+        serializedVersion: 2
+        x: 7512
+        y: 1932
+        width: 959
+        height: 1403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26365400d9c785b44bd3a45598c3e42e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 276
+        width: 1023
+        height: 1378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7166adb0c78e8e4ca34d3cded23b638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_31
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 288
+        width: 1067
+        height: 1358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ec608e659a0d342a7ea01373aee3f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_32
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 249
+        width: 1107
+        height: 1387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336c482f39a381441ba4cac69f982b37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_33
+      rect:
+        serializedVersion: 2
+        x: 4515
+        y: 214
+        width: 1141
+        height: 1420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f7e22d29df18a49b47c2a4f0116e9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Run Perfil_34
+      rect:
+        serializedVersion: 2
+        x: 5942
+        y: 175
+        width: 1176
+        height: 1452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac780b81e1bf7545ae8e0dfa5ff6fc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5918f3f918106b640bfc8a0d069bbe29
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

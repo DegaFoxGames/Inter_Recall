@@ -1,0 +1,971 @@
+fileFormatVersion: 2
+guid: 691848d8f88708b47a901f7722405717
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Doug Walk Perfil_0
+    21300002: Doug Walk Perfil_1
+    21300004: Doug Walk Perfil_2
+    21300006: Doug Walk Perfil_3
+    21300008: Doug Walk Perfil_4
+    21300010: Doug Walk Perfil_5
+    21300012: Doug Walk Perfil_6
+    21300014: Doug Walk Perfil_7
+    21300016: Doug Walk Perfil_8
+    21300018: Doug Walk Perfil_9
+    21300020: Doug Walk Perfil_10
+    21300022: Doug Walk Perfil_11
+    21300024: Doug Walk Perfil_12
+    21300026: Doug Walk Perfil_13
+    21300028: Doug Walk Perfil_14
+    21300030: Doug Walk Perfil_15
+    21300032: Doug Walk Perfil_16
+    21300034: Doug Walk Perfil_17
+    21300036: Doug Walk Perfil_18
+    21300038: Doug Walk Perfil_19
+    21300040: Doug Walk Perfil_20
+    21300042: Doug Walk Perfil_21
+    21300044: Doug Walk Perfil_22
+    21300046: Doug Walk Perfil_23
+    21300048: Doug Walk Perfil_24
+    21300050: Doug Walk Perfil_25
+    21300052: Doug Walk Perfil_26
+    21300054: Doug Walk Perfil_27
+    21300056: Doug Walk Perfil_28
+    21300058: Doug Walk Perfil_29
+    21300060: Doug Walk Perfil_30
+    21300062: Doug Walk Perfil_31
+    21300064: Doug Walk Perfil_32
+    21300066: Doug Walk Perfil_33
+    21300068: Doug Walk Perfil_34
+    21300070: Doug Walk Perfil_35
+    21300072: Doug Walk Perfil_36
+    21300074: Doug Walk Perfil_37
+    21300076: Doug Walk Perfil_38
+    21300078: Doug Walk Perfil_39
+    21300080: Doug Walk Perfil_40
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Doug Walk Perfil_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 8674
+        width: 766
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1983ea226a4632c4a876e9990b549d64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_1
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 8674
+        width: 751
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2798bf597c874b74db0239f1497c0156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_2
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 8669
+        width: 742
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe9cd3e3d5b7114b80899482cef4b10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_3
+      rect:
+        serializedVersion: 2
+        x: 3314
+        y: 8669
+        width: 732
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95d18a436cabfc459cb5442316a2274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_4
+      rect:
+        serializedVersion: 2
+        x: 4369
+        y: 8669
+        width: 717
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df9330ddd69a214ebdfaa2391ce8de8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_5
+      rect:
+        serializedVersion: 2
+        x: 5420
+        y: 8664
+        width: 707
+        height: 1523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f305a5f5108f2e546b816071b7f818f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_6
+      rect:
+        serializedVersion: 2
+        x: 6490
+        y: 8654
+        width: 638
+        height: 1533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24aed6f8c56ebf49a43bcc07f363fa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_7
+      rect:
+        serializedVersion: 2
+        x: 7566
+        y: 8654
+        width: 557
+        height: 1533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3db869ccd3b28418e07d1523e63125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 6955
+        width: 482
+        height: 1529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b308b28bf62c11c4c9e57950a2c2de74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_9
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 6960
+        width: 428
+        height: 1529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b78c32cf56df9e4badae4988a2a7b45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_10
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 6965
+        width: 404
+        height: 1524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c3b6e9188afb04ea0354cdb496b45d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_11
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 6970
+        width: 383
+        height: 1519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bd3f98ea7110c43951d91f9f23f3cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_12
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 6965
+        width: 403
+        height: 1524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1d3dd2f97fe064c9660eff7e9b6df5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_13
+      rect:
+        serializedVersion: 2
+        x: 5564
+        y: 6960
+        width: 423
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc2f580c513e9142a89fe8047bb569f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_14
+      rect:
+        serializedVersion: 2
+        x: 6590
+        y: 6960
+        width: 458
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dff5ebe5c40ba429a068da7c9c88c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_15
+      rect:
+        serializedVersion: 2
+        x: 7611
+        y: 6960
+        width: 512
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1653a12040763bf429cbb088b4cb50b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 5257
+        width: 561
+        height: 1539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93a5cb9e0f716245b7fee3f6dbe1c0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_17
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 5262
+        width: 603
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e28dfed9a6091d4d845c60461ae92b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_18
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 5267
+        width: 647
+        height: 1524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb37b526f919f9640b9a606424981cd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_19
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 5272
+        width: 697
+        height: 1519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae74744ccf2b3a942a029574d4dd088f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_20
+      rect:
+        serializedVersion: 2
+        x: 4384
+        y: 5262
+        width: 732
+        height: 1529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0065cb2053b04d347931eb6cf99902a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_21
+      rect:
+        serializedVersion: 2
+        x: 5410
+        y: 5262
+        width: 747
+        height: 1529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336c27717d440b8479cfddf9c65e0afe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_22
+      rect:
+        serializedVersion: 2
+        x: 6436
+        y: 5262
+        width: 761
+        height: 1524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b42339abfcc47443bb32d2568253c56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_23
+      rect:
+        serializedVersion: 2
+        x: 7462
+        y: 5257
+        width: 771
+        height: 1529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39343ec6edd1725448905483d57a8e1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3554
+        width: 781
+        height: 1533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2301f4d47f1055a489ca2edef86646a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_25
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 3554
+        width: 781
+        height: 1533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0313429ac33764c90b82701f18565a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_26
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 3564
+        width: 677
+        height: 1523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ad8d88583ed734380206dfed48ad99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_27
+      rect:
+        serializedVersion: 2
+        x: 3373
+        y: 3569
+        width: 578
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c05cd1d6083ca469d2bc4ab5a77a6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_28
+      rect:
+        serializedVersion: 2
+        x: 4474
+        y: 3569
+        width: 483
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d58283f7718fe4a9ef645a5ca5c9c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_29
+      rect:
+        serializedVersion: 2
+        x: 5574
+        y: 3559
+        width: 388
+        height: 1533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5158af9f137bf124eb8128903b62f984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_30
+      rect:
+        serializedVersion: 2
+        x: 6620
+        y: 3559
+        width: 428
+        height: 1533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99125255919f284eb86754369a5518d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_31
+      rect:
+        serializedVersion: 2
+        x: 7665
+        y: 3544
+        width: 443
+        height: 1548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4226783bee85994f8ee2b413193d6e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_32
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1840
+        width: 460
+        height: 1549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a734a6ba4d931434e9c5a77197081ecd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_33
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1835
+        width: 518
+        height: 1559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4849f7fe997f94c4480cb0136edbcdc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_34
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 1855
+        width: 562
+        height: 1539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b35a559d5f74b4c8cc8cc4d8fd09aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_35
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 1860
+        width: 617
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c54b5a2ec410345b1fe6b4cc96183b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_36
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 1860
+        width: 622
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2420bd11b3859340a64fea42141fc6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_37
+      rect:
+        serializedVersion: 2
+        x: 5425
+        y: 1860
+        width: 622
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19db0a8e571b15a47a31693eba435117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_38
+      rect:
+        serializedVersion: 2
+        x: 6455
+        y: 1860
+        width: 663
+        height: 1529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e931cf13d576404ea8233fd46af5828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_39
+      rect:
+        serializedVersion: 2
+        x: 7487
+        y: 1860
+        width: 716
+        height: 1529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9b9a1122a51dd4db7127807e35ec3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doug Walk Perfil_40
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 167
+        width: 766
+        height: 1524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261244ac71e7e6f4682b841eaf5d1a3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f4f9416d62bc25348b241375bbedf549
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
