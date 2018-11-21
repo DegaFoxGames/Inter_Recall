@@ -32,7 +32,7 @@ public class Jogador : MonoBehaviour {
         animator = GetComponent<Animator>();
         velocidadeJogador = 5;
         velocidadeJogadorRun = 10;
-        forcaPulo = 15;
+        forcaPulo = 12;
         estado = Estados.ANDANDO;
         lado = Lado.DIREITA;
 
