@@ -119,12 +119,12 @@ public class Jogador : MonoBehaviour {
         if (Input.GetKey(KeyCode.LeftShift))
         {
             vel.x = Input.GetAxis("Horizontal") * velocidadeJogadorRun;
+            animator.SetBool("Correndo", true);
         }
 
       
         rb.velocity = vel;
         animator.SetInteger("Andando", (int)vel.x);
-
     }
 
     void Pulando()
