@@ -1,0 +1,19 @@
+<ProjectInfo Version="1">
+  <Signature>43303960EBDB1FC268DE661CDA44DD187DAA27852C2B10107271F1EFA57838BB</Signature>
+  <Content>
+    <Project Guid="29c7533b-6991-46bf-9f89-d0aebdf619e5">
+      <DisplayName Value="Recall"/>
+      <DetailName Value="Dialogo Recall"/>
+      <MainProjectGuid Value="731c6462-cff9-4251-85c5-4882f2dc6f37"/>
+      <IconType Value="0"/>
+      <IdProjectIcon Value="00000000-0000-0000-0000-000000000000"/>
+      <ScmProviderGuid Value="0745c2ee-abe3-451b-934e-7f597f56c0d7"/>
+      <ScmConfiguration Value=""/>
+      <CreationTimeStamp Value="636784877218530748"/>
+      <PartitionHash Value="F571E7A2E91FEC53B28A071BDC8B8C38984E37A873D8B6D827101315CD75610F"/>
+      <SaveFileVersion Value="55"/>
+      <ProjectType Value="0"/>
+      <IsOnlineProject Value="False"/>
+    </Project>
+  </Content>
+</ProjectInfo>
