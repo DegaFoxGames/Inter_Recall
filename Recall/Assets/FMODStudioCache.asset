@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114948999957884110}
-  - {fileID: 114771907409865624}
+  - {fileID: 114885376149907752}
   EditorEvents:
   - {fileID: 114182618350673744}
   - {fileID: 114446279564222702}
@@ -25,9 +25,9 @@ MonoBehaviour:
   - {fileID: 114600610303413956}
   - {fileID: 114836007775398028}
   - {fileID: 114013917552110972}
-  MasterBankRef: {fileID: 114771907409865624}
+  MasterBankRef: {fileID: 114885376149907752}
   StringsBankRef: {fileID: 114948999957884110}
-  stringsBankWriteTime: 636778099057996082
+  stringsBankWriteTime: 636776978860000000
   cacheVersion: 2
 --- !u!114 &114001807208680620
 MonoBehaviour:
@@ -64,7 +64,7 @@ MonoBehaviour:
   Path: event:/SOUND TRACK/Porta 1/Grama/Grama
   guid: e19871bc15963e4ebef853976a9290c8
   Banks:
-  - {fileID: 114771907409865624}
+  - {fileID: 114885376149907752}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -126,7 +126,7 @@ MonoBehaviour:
   Path: event:/SFX/Doug/Foosteps/Madeira/FootstepWood
   guid: 88ca346eb645674ea676113bac1d1121
   Banks:
-  - {fileID: 114771907409865624}
+  - {fileID: 114885376149907752}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -148,7 +148,7 @@ MonoBehaviour:
   Path: event:/SOUND TRACK/Porta 1/Casa/Casa
   guid: 60c8000850941b479f9672142479e915
   Banks:
-  - {fileID: 114771907409865624}
+  - {fileID: 114885376149907752}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   Path: event:/SFX/Doug/Gun shots/Handgun
   guid: 1ddff5c820f7a645b8cd218c78a58766
   Banks:
-  - {fileID: 114771907409865624}
+  - {fileID: 114885376149907752}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -254,7 +254,7 @@ MonoBehaviour:
   Path: event:/SFX/Doug/Foosteps/Grama/FootstepGrass
   guid: ac3d232343407e42a9ccea966581195d
   Banks:
-  - {fileID: 114771907409865624}
+  - {fileID: 114885376149907752}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -406,7 +406,7 @@ MonoBehaviour:
   Path: event:/SOUND TRACK/Limbo/Limbo
   guid: 369172bc06661c4b95308ee628446ae2
   Banks:
-  - {fileID: 114771907409865624}
+  - {fileID: 114885376149907752}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -428,7 +428,7 @@ MonoBehaviour:
   Path: "event:/SOUND TRACK/Porta 2/Persegui\xE7\xE3o/Chase"
   guid: aafda18b01bff44d9d6429b59370eb94
   Banks:
-  - {fileID: 114771907409865624}
+  - {fileID: 114885376149907752}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -553,7 +553,7 @@ MonoBehaviour:
   Path: event:/SOUND TRACK/Menu Inicial/Menu Inicial
   guid: ccf1f257a9745a49b3603f4c183be946
   Banks:
-  - {fileID: 114771907409865624}
+  - {fileID: 114885376149907752}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -659,7 +659,7 @@ MonoBehaviour:
   Path: event:/SFX/Doug/Foosteps/Concreto/FootstepConcret
   guid: af4a8c86f2f1cc448534a7f3ad36624d
   Banks:
-  - {fileID: 114771907409865624}
+  - {fileID: 114885376149907752}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -685,7 +685,7 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 13129792
-  Exists: 1
+  Exists: 0
 --- !u!114 &114836007775398028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -700,7 +700,7 @@ MonoBehaviour:
   Path: event:/SOUND TRACK/Porta 2/Bar/Bar
   guid: d1bdacd11440cb4cbd7b5d73a8d6f00a
   Banks:
-  - {fileID: 114771907409865624}
+  - {fileID: 114885376149907752}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -729,6 +729,25 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 400
+--- !u!114 &114885376149907752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Reinaldo\Desktop\GitHub - Inter\Inter_Recall\Recall\FMOD\Recall\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636776968120000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 13129792
+  Exists: 1
 --- !u!114 &114890528087902134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -785,7 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: FMOD\Recall\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636778099057996082
+  lastModified: 636776978860000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
