@@ -54,7 +54,7 @@ public class Sentinela : MonoBehaviour
     void Update()
     {
 
-        print(VidaSentinela);
+        //print(VidaSentinela);
         playerDistanciaX = transform.position.x - player.transform.position.x;
         playerDistanciaY = transform.position.y - player.transform.position.y;
 

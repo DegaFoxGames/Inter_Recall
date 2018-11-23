@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Jogador : MonoBehaviour {
+public class Jogador : MonoBehaviour
+{
 
     Rigidbody2D rb;
     public int velocidadeJogador;
@@ -12,22 +13,25 @@ public class Jogador : MonoBehaviour {
     Animator animator;
     public GameObject player; // gameobject para inserir o player e mudar a escala dele
     public GameObject arm; // gameobject para inserir o braço e mudar a escala dele
+    public GameObject firepoint;
+
     public int VidaJogador;
-    public Component[] Braco;
     public bool invulnerabilidade;
 
 
-    enum Estados {PARADO, ANDANDO, CORRENDO, PULANDO}
+    enum Estados { PARADO, ANDANDO, CORRENDO, PULANDO }
     Estados estado;
 
     public enum Lado { DIREITA, ESQUERDA }
     public Lado lado;
 
     SpriteRenderer spriteJogador;
+    bool travaCorrer;
     //SpriteRenderer spriteBraco;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         velocidadeJogador = 5;
@@ -39,23 +43,31 @@ public class Jogador : MonoBehaviour {
         VidaJogador = 4;
         spriteJogador = GetComponent<SpriteRenderer>();
     }
-    
-	
-	// Update is called once per frame
-	void FixedUpdate () {
+
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
 
         if (estado == Estados.ANDANDO)
         {
             Andando();
-            
+
             duracaoPulo = 0;
-            
+
         }
 
         else if (estado == Estados.PULANDO)
         {
-            Pulando();
+            //Pulando();
             duracaoPulo -= Time.deltaTime;
+            arm.SetActive(false);
+        }
+
+        else if (estado == Estados.CORRENDO)
+        {
+            Andando();
+            arm.SetActive(false);
         }
 
         // print(duracaoPulo);
@@ -69,12 +81,22 @@ public class Jogador : MonoBehaviour {
 
         if (vel.x > 0)
         {
-            lado = Lado.DIREITA;     
+            lado = Lado.DIREITA;
         }
 
         if (vel.x < 0)
         {
-            lado = Lado.ESQUERDA;     
+            lado = Lado.ESQUERDA;
+        }
+
+        if (vel.x == 0)
+        {
+            travaCorrer = true;
+        }
+
+        else
+        {
+            travaCorrer = false;
         }
 
 
@@ -83,15 +105,19 @@ public class Jogador : MonoBehaviour {
             //GetComponent<SpriteRenderer>().flipX = true;
 
 
-             Vector3 newScalep = player.transform.localScale;
-             newScalep.x = -1;
-             player.transform.localScale = newScalep;
+            Vector3 newScalep = player.transform.localScale;
+            newScalep.x = -1;
+            player.transform.localScale = newScalep;
 
-             Vector3 newScalea = arm.transform.localScale;
-             newScalea.x = -1;
-             newScalea.y = -1;
+            Vector3 newScalea = arm.transform.localScale;
+            newScalea.x = -1;
+            newScalea.y = -1;
+            arm.transform.localScale = newScalea;
 
-             arm.transform.localScale = newScalea;
+            Vector3 newScalef = arm.transform.localScale;
+            newScalef.x = -1;
+            newScalef.y = -1;
+            firepoint.transform.localScale = newScalea;
         }
 
         else if (lado == Lado.DIREITA)
@@ -105,24 +131,42 @@ public class Jogador : MonoBehaviour {
             Vector3 newScalea = arm.transform.localScale;
             newScalea.x = 1;
             newScalea.y = 1;
-
             arm.transform.localScale = newScalea;
+
+            Vector3 newScalef = arm.transform.localScale;
+            newScalef.x = 1;
+            newScalef.y = 1;
+            firepoint.transform.localScale = newScalea;
         }
-        
+
 
         if (Input.GetKey(KeyCode.Space))
         {
             vel.y = forcaPulo;
-            duracaoPulo += 0.5f;  
+            duracaoPulo += 0.5f;
+            animator.SetBool("Pulando", true);
         }
 
-        if (Input.GetKey(KeyCode.LeftShift))
+        else
+        {
+            animator.SetBool("Pulando", false);
+        }
+
+        if (Input.GetKey(KeyCode.LeftShift) && !travaCorrer)
         {
             vel.x = Input.GetAxis("Horizontal") * velocidadeJogadorRun;
             animator.SetBool("Correndo", true);
+            estado = Estados.CORRENDO;
         }
 
-      
+        else
+        {
+            estado = Estados.ANDANDO;
+            animator.SetBool("Correndo", false);
+            arm.SetActive(true);
+        }
+
+
         rb.velocity = vel;
         animator.SetInteger("Andando", (int)vel.x);
     }
@@ -145,7 +189,7 @@ public class Jogador : MonoBehaviour {
         {
 
         }
-        
+
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -165,7 +209,7 @@ public class Jogador : MonoBehaviour {
         //print("Exit");
         if (collision.tag == "Plataforma_tag")
         {
-            if (estado == Estados.ANDANDO)
+            if (estado == Estados.ANDANDO || estado == Estados.CORRENDO)
             {
                 estado = Estados.PULANDO;
             }
@@ -183,7 +227,7 @@ public class Jogador : MonoBehaviour {
             yield return new WaitForSeconds(0.1f);
             //spriteJogador.enabled = true;
             spriteJogador.color = Color.white;
-           // spriteBraco.color = Color.white;
+            // spriteBraco.color = Color.white;
             yield return new WaitForSeconds(0.1f);
         }
         invulnerabilidade = false;
@@ -199,6 +243,28 @@ public class Jogador : MonoBehaviour {
         if (VidaJogador < 1)
         {
             Debug.Log("Morreu");
+        }
+    }
+
+
+    void MaquinaDeEstados()
+    {
+        if (estado == Estados.PARADO)
+        {
+            if (estado == Estados.ANDANDO)
+            {
+                Andando();
+            }
+
+            else if (estado == Estados.CORRENDO)
+            {
+
+            }
+
+            else if (estado == Estados.PULANDO)
+            {
+
+            }
         }
     }
 }

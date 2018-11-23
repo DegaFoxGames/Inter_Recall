@@ -65,7 +65,7 @@ public class Agente : MonoBehaviour
     void Update()
     {
 
-        print(VidaInimigo);
+        //print(VidaInimigo);
         MudarEstado();
 
         playerDistancia = transform.position.x - player.transform.position.x;
