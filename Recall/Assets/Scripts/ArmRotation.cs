@@ -16,8 +16,6 @@ public class ArmRotation : MonoBehaviour {
     }
 
     void FixedUpdate() {
-
-
         // subtraindo a posição do jogador da posição do mouse
         Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         difference.Normalize();     // normalizando o vetor. Significa que toda a soma do vetor será igual a 1
@@ -48,6 +46,7 @@ public class ArmRotation : MonoBehaviour {
             if (rotZ > 0 && rotZ < 135)
             {
                 transform.rotation = Quaternion.Euler(0f, 0f, 135 + rotationOffset);
+
             }
 
             else if (rotZ <= 0 && rotZ > -135)
@@ -55,7 +54,5 @@ public class ArmRotation : MonoBehaviour {
                 transform.rotation = Quaternion.Euler(0f, 0f, -135 + rotationOffset);
             }
         }
-
     }
-
 }
