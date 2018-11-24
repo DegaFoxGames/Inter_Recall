@@ -113,7 +113,7 @@
     </object>
     <object class="EventMixerGroup" id="{bf3812df-00e4-4b2c-82e3-425c74898b70}">
         <property name="volume">
-            <value>-18</value>
+            <value>-23.5</value>
         </property>
         <property name="name">
             <value>Audio 1</value>
@@ -135,23 +135,14 @@
         <property name="initialValue">
             <value>-80</value>
         </property>
-        <property name="attackTime">
-            <value>1200</value>
-        </property>
         <property name="peakValue">
             <value>-15.5</value>
-        </property>
-        <property name="holdTime">
-            <value>3000</value>
-        </property>
-        <property name="decayTime">
-            <value>3200</value>
         </property>
         <property name="sustainValue">
             <value>1.5</value>
         </property>
         <property name="releaseTime">
-            <value>2200</value>
+            <value>1200</value>
         </property>
     </object>
     <object class="MixerBusEffectChain" id="{a583a957-14a3-4f9b-96d8-9ced28ee599e}">

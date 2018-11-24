@@ -17,7 +17,7 @@ MonoBehaviour:
   mLastUsedScriptFragmentsHash: 
   mLastUsedPackagesHash: 0
   mLastUsedPackagesCount: 0
-  mLastBuildCode: -100
+  mLastBuildCode: 0
   mAwaitingModelImport: 0
   mAwaitingFragmentsImport: 0
   mSCMIgnoreState: 0

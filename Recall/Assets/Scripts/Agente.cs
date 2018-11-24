@@ -203,6 +203,7 @@ public class Agente : MonoBehaviour
     private void InstanciarProjetil()
     {
         GameObject temp = (Instantiate(PrefabProjetil, instanciador.position, instanciador.rotation));
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Doug/Gun shots/Handgun", GetComponent<Transform>().position); // som do tiro
 
         if (eLadoDireito)
         {
